@@ -7,6 +7,7 @@ import static java.util.Objects.requireNonNull;
  * Guarantees: immutable; is always valid
  */
 public class Remark {
+
     public final String value;
 
     public Remark(String remark) {
@@ -31,3 +32,6 @@ public class Remark {
         return value.hashCode();
     }
 }
+
+
+
